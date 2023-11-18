@@ -23,7 +23,7 @@ dependencies {
 	// 스프링 부트
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	compileOnly("org.springframework.boot:spring-boot-devtools")
-	
+	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	
