@@ -1,4 +1,4 @@
-package com.learn_spring_boot.learnspringboot;
+package com.learn_spring_boot.learnspringboot.Java;
 
 public class CourseJava {
 
@@ -12,8 +12,6 @@ public class CourseJava {
         this.name = name;
         this.author = author;
     }
-
-
 
 
     public int getId() {

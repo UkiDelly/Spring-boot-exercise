@@ -1,4 +1,4 @@
-package com.learn_spring_boot.learnspringboot;
+package com.learn_spring_boot.learnspringboot.Java;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,8 +12,8 @@ import java.util.List;
 @RequestMapping
 public class CourseControllerJava {
 
-    @GetMapping("/courses")
-    public List<CourseJava> retrieveAllCourses()  {
-        return Arrays.asList(new CourseJava(1, "Learn AWS", "in28minutes"),new CourseJava(2, "Learn DevOps", "in28minutes"));
+    @GetMapping("/courses/java")
+    public List<CourseJava> retrieveAllCourses() {
+        return Arrays.asList(new CourseJava(1, "Learn AWS", "in28minutes"), new CourseJava(2, "Learn DevOps", "in28minutes"));
     }
 }
